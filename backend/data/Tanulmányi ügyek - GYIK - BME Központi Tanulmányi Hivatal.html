@@ -1,0 +1,963 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# website: http://ogp.me/ns/website#">
+	<meta charset="utf-8">
+
+	<meta name="description" content="BME Központi Tanulmányi Hivatal portál" />
+	<meta name="generator" content="Plex Portal Framework v1.10" />
+	<meta name="keywords" content="BME KTH" />
+
+	<title>Tanulmányi ügyek - GYIK - BME Központi Tanulmányi Hivatal</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
+
+	<link rel="stylesheet" type="text/css" href="/static/css/default/main.css?v=2.0.17" media="all"/>
+	<link rel="stylesheet" type="text/css" href="/static/css/colorbox.css?v=2.0.17" media="all"/>
+
+	<link rel="stylesheet" type="text/css" href="/static/css/default/desktop.css?v=2.0.17" media="screen and (min-width: 980px)"/>
+	<link rel="stylesheet" type="text/css" href="/static/css/default/tablet.css?v=2.0.17" media="screen and (max-width: 979px) and (min-width: 768px)"/>
+	<link rel="stylesheet" type="text/css" href="/static/css/default/mobile.css?v=2.0.17" media="screen and (max-width: 979px)"/> 	<link rel="stylesheet" type="text/css" href="/static/css/default/mobile_small.css?v=2.0.17" media="screen and (max-width: 479px)"/>
+
+	<link rel="stylesheet" type="text/css" href="/static/css/default/menu.css?v=2.0.17" media="screen and (min-width: 980px)"/>
+	<link rel="stylesheet" type="text/css" href="/static/css/pikaday.css?v=2.0.17" media="all"/>
+	<link rel="stylesheet" type="text/css" href="/static/css/default/slider.css?v=2.0.17" media="all"/>
+
+	<link rel="stylesheet" type="text/css" href="/static/css/default/hc-offcanvas-nav.css?v=2.0.17" media="screen"/>
+
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,600&amp;subset=latin,latin-ext"/>
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Oswald:400,700&amp;subset=latin,latin-ext"/>
+
+
+
+	<script src="/static/js/jquery-1.11.1.min.js"></script>
+	<script src="/static/js/jquery.bxslider.min.js"></script>
+	<script src="/static/js/jquery.colorbox-min.js"></script>
+	<script src="/static/js/jquery.tinyscrollbar.min.js"></script>
+	<script src="/static/js/hc-offcanvas-nav.min.js?v=2.0.17"></script>
+
+	<script src="/static/js/jquery.cookie.js"></script>
+	<script src="/static/js/jquery.form.js"></script>
+	<script src="/static/js/jquery.validate.js"></script>
+	<script src="/static/js/additional-methods.js"></script>
+	<script src="/static/js/Portalfw.js?v=2.0.17"></script>
+	<script src="/static/js/Portalfw/BlockManager.js?v=2.0.17"></script>
+	<script src="/static/js/BmeKth.js?v=2.0.17"></script>
+	<script src="/static/js/moment.js"></script>
+	<script src="/static/js/pikaday.js"></script>
+	<script src="/static/js/pikaday.jquery.js"></script>
+	<script src="/static/js/main.js?v=2.0.17"></script>
+
+
+
+	<link rel="shortcut icon" type="image/vnd.microsoft.icon" href="/static/img/favicon.ico"/>
+
+	<link rel="alternate" type="application/rss+xml" title="RSS" href="/rss" />
+
+	<meta property="fb:app_id" content="1499081690330535"/>
+	<meta property="og:site_name" content="BME Központi Tanulmányi Hivatal"/>
+	<meta property="og:url" content="https://www.kth.bme.hu/hallgatoknak/gyik/tanulmanyi-ugyek/"/>
+	<meta property="og:type" content="website"/>
+	<meta property="og:title" content="BME Központi Tanulmányi Hivatal"/>
+	<meta property="og:image" content="https://www.kth.bme.hu/static/img/facebook_default_image.jpg"/>
+	<meta property="og:image:type" content="image/jpeg"/>
+	<meta property="og:image:width" content="800"/>
+	<meta property="og:image:height" content="547"/>
+	<meta property="og:description" content="BME Központi Tanulmányi Hivatal"/>
+	<meta property="og:locale" content="hu_HU"/>
+
+	<link rel="apple-touch-icon" sizes="180x180" href="/static/img/favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/static/img/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/static/img/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/static/img/favicon/site.webmanifest">
+	<link rel="mask-icon" href="/static/img/favicon/safari-pinned-tab.svg" color="#5bbad5">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="msapplication-TileImage" content="/static/img/favicon/mstile-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+
+	<script type="text/javascript">
+	$(document).ready( function() {
+		$(".colorbox").colorbox();
+	});
+	</script>
+
+
+</head><body>
+
+<div id="site-wrapper">
+
+	<div id="site-topbar">
+		<div>
+			<a href="http://www.bme.hu/" class="topbar-a new-window">BME honlap</a>| <a href="http://telefon.bme.hu/index.php?unit&id=3687" class="topbar-a new-window">Telefonkönyv</a> | <a href="/sitemap/" class="topbar-a">Oldaltérkép</a> | <a href="/language/hu/" class="topbar-a">HU</a> | <a href="/language/en/" class="topbar-a">EN</a>
+		</div>
+	</div>
+	<div class="topbar-line"></div>
+	<div id="site-inner-wrapper">
+
+		<div id="site-header">
+
+			<div class="bme-logo">
+				<a href="/" class="logo"></a>
+			</div>
+
+			<div class="text">
+				<h1>BUDAPESTI MŰSZAKI ÉS GAZDASÁGTUDOMÁNYI EGYETEM</h1>
+				<h2>Központi Tanulmányi Hivatal</h2>
+			</div>
+
+				<div id="search-box">
+					<div class="sidebar-content">
+						<form id="search-form" action="/kereses/" method="get" class="search-form">
+							<input type="text" name="text" id="search-form-text" value=""/>
+
+							<a id="search-form-button" title="Keresés a portálon"></a>
+							<a id="phonebook-search-form-button" title="Keresés az egyetemi telefonkönyvben"></a>
+						</form>
+					</div>
+					<form id="phonebook-search-form" action="https://telefon.bme.hu/index.php?search" accept-charset='iso-8859-2' method="get" target="_blank"></form>
+				</div>
+			<div class="clear"><!-- --></div>
+		</div>
+
+		<div id="mobile-infobox-trigger"></div>
+
+		<div id="infobox">
+			<div class="content">
+
+				<div class="infobar">
+					<span class="content">
+							<span class="text day" title="2024. március 23. szombat, Emőke napja van">2024. március 23. szombat</span>
+
+							<span class="spacer day">&nbsp; &middot; &nbsp;</span>
+
+							<span class="text">
+								<span title="2023/2024 II. félév, 2024-02-01 &ndash; 2024-07-31">
+										2023/2024 II. félév
+										 8. hete								</span>
+							</span>
+
+							<span class="spacer">&nbsp; &middot; &nbsp;</span>
+
+							<span class="text">Ma nincs félfogadás</span>
+					</span> 				</div>
+
+				<div class="mobile-infobox">
+
+					<div id="mobile-search-box">
+						<div class="content">
+							<form id="mobile-search-form" action="/kereses/" method="get" class="search-form">
+								<input type="text" name="text" id="mobile-search-form-text" value=""/>
+								<a id="mobile-search-form-button" title=""></a>
+							</form>
+							<div class="clear"><!-- --></div>
+						</div>
+					</div>
+
+					<div class="mobile-user-box">
+						<a href="https://www.kth.bme.hu/Shibboleth.sso/Login?target=https%3A%2F%2Fwww.kth.bme.hu%2Fhallgatoknak%2Fgyik%2Ftanulmanyi-ugyek%2F" class="eduid-login-button"></a>
+					</div>
+
+
+					<div class="neptun">
+						<div class="neptun-logo"></div>
+						<a href="https://neptun.bme.hu/hallgatoi/login.aspx" class="neptun-hallg">Hallgatóknak</a>
+						<a href="https://neptun.bme.hu/oktatoi/login.aspx" class="neptun-okt">Oktatóknak</a>
+					</div>
+
+
+					<div class="neptun-working-hours">
+						<h6>Neptun üzemidő</h6>
+
+						<p><span class="time">00:00 &ndash; 04:00</span> rendes üzem</p>
+						<p><span class="time">04:00 &ndash; 06:00</span> üzemszünet</p>
+						<p><span class="time">06:00 &ndash; 24:00</span> rendes üzem</p>
+
+						<p class="comment">Az ettől való rendkívüli eltéréseket a hírek között jelentetjük meg.</p>
+					</div>
+				</div>
+
+			</div>
+		</div>
+		<nav id="main-nav">
+
+		<ul class="menu-level menu-level-0 menu-level-0-with-submenu menu-level-inactive menu-level-0-inactive">
+			<li>
+				<a href="/hirek/" class="menu-item first"><span>Hírek</span></a>
+				<div class="submenu">
+
+		<ul class="menu-level menu-level-1 menu-level-inactive menu-level-1-inactive">
+			<li>
+				<a href="/hirek/aktualis/" class="menu-item first" title="Aktuális hírek"><span>Aktuális hírek</span></a>
+			</li>
+		</ul>
+		<ul class="menu-level menu-level-1 menu-level-inactive menu-level-1-inactive">
+			<li>
+				<a href="/hirek/archiv/" class="menu-item last"><span>Archív hírek</span></a>
+			</li>
+		</ul>
+
+				</div>
+			</li>
+		</ul>
+		<ul class="menu-level menu-level-0 menu-level-0-with-submenu menu-level-active menu-level-0-active menu-level-0-active-with-submenu">
+			<li>
+				<a href="/hallgatoknak/" class="menu-item active"><span>Hallgatóknak</span></a>
+				<div class="submenu">
+
+		<ul class="menu-level menu-level-1 menu-level-1-with-submenu menu-level-inactive menu-level-1-inactive">
+			<li>
+				<a href="/hallgatoknak/szabalyzatok/" class="menu-item first" title="Szabályzatok"><span>Szabályzatok</span></a>
+				<div class="submenu">
+
+		<ul class="menu-level menu-level-2 menu-level-inactive menu-level-2-inactive">
+			<li>
+				<a href="/hallgatoknak/szabalyzatok/archiv-szabalyzatok/" class="menu-item first last"><span>Archív szabályzatok</span></a>
+			</li>
+		</ul>
+
+				</div>
+			</li>
+		</ul>
+		<ul class="menu-level menu-level-1 menu-level-1-with-submenu menu-level-inactive menu-level-1-inactive">
+			<li>
+				<a href="/hallgatoknak/neptunrol/" class="menu-item"><span>Neptunról</span></a>
+				<div class="submenu">
+
+		<ul class="menu-level menu-level-2 menu-level-inactive menu-level-2-inactive">
+			<li>
+				<a href="/hallgatoknak/neptunrol/neptun_urlapok/" class="menu-item first"><span>Neptun kérvények</span></a>
+			</li>
+		</ul>
+		<ul class="menu-level menu-level-2 menu-level-inactive menu-level-2-inactive">
+			<li>
+				<a href="/hallgatoknak/neptunrol/gyik/" class="menu-item last"><span>GYIK</span></a>
+			</li>
+		</ul>
+
+				</div>
+			</li>
+		</ul>
+		<ul class="menu-level menu-level-1 menu-level-inactive menu-level-1-inactive">
+			<li>
+				<a href="/hallgatoknak/idopontok/" class="menu-item"><span>Időpontok, időszakok</span></a>
+			</li>
+		</ul>
+		<ul class="menu-level menu-level-1 menu-level-inactive menu-level-1-inactive">
+			<li>
+				<a href="/hallgatoknak/tanevek_idobeosztasa/" class="menu-item"><span>Tanévek időbeosztása</span></a>
+			</li>
+		</ul>
+		<ul class="menu-level menu-level-1 menu-level-inactive menu-level-1-inactive">
+			<li>
+				<a href="/hallgatoknak/dokumentumtar/" class="menu-item"><span>Dokumentumtár</span></a>
+			</li>
+		</ul>
+		<ul class="menu-level menu-level-1 menu-level-1-with-submenu menu-level-active menu-level-1-active menu-level-1-active-with-submenu">
+			<li>
+				<a href="/hallgatoknak/gyik/" class="menu-item last active"><span>GYIK</span></a>
+				<div class="submenu">
+
+		<ul class="menu-level menu-level-2 menu-level-inactive menu-level-2-inactive">
+			<li>
+				<a href="/hallgatoknak/gyik/ugyintezes/" class="menu-item first"><span>Ügyintézés</span></a>
+			</li>
+		</ul>
+		<ul class="menu-level menu-level-2 menu-level-inactive menu-level-2-inactive">
+			<li>
+				<a href="/hallgatoknak/gyik/neptun_hasznalata/" class="menu-item"><span>Neptun használata</span></a>
+			</li>
+		</ul>
+		<ul class="menu-level menu-level-2 menu-level-active menu-level-2-active">
+			<li>
+				<a href="/hallgatoknak/gyik/tanulmanyi-ugyek/" class="menu-item active"><span>Tanulmányi ügyek</span></a>
+			</li>
+		</ul>
+		<ul class="menu-level menu-level-2 menu-level-inactive menu-level-2-inactive">
+			<li>
+				<a href="/hallgatoknak/gyik/gyujtoszamla-penzugyek/" class="menu-item"><span>Pénzügyek</span></a>
+			</li>
+		</ul>
+		<ul class="menu-level menu-level-2 menu-level-inactive menu-level-2-inactive">
+			<li>
+				<a href="/hallgatoknak/gyik/diakigazolvany/" class="menu-item"><span>Diákigazolvány</span></a>
+			</li>
+		</ul>
+		<ul class="menu-level menu-level-2 menu-level-inactive menu-level-2-inactive">
+			<li>
+				<a href="/hallgatoknak/gyik/diakhitel/" class="menu-item last"><span>Diákhitel</span></a>
+			</li>
+		</ul>
+
+				</div>
+			</li>
+		</ul>
+
+				</div>
+			</li>
+		</ul>
+		<ul class="menu-level menu-level-0 menu-level-0-with-submenu menu-level-inactive menu-level-0-inactive">
+			<li>
+				<a href="/felvetelizoknek/" class="menu-item"><span>Felvételizőknek</span></a>
+				<div class="submenu">
+
+		<ul class="menu-level menu-level-1 menu-level-inactive menu-level-1-inactive">
+			<li>
+				<a href="/felvetelizoknek/atveteli-kerelem/" class="menu-item first"><span>Átvételi eljárás</span></a>
+			</li>
+		</ul>
+		<ul class="menu-level menu-level-1 menu-level-inactive menu-level-1-inactive">
+			<li>
+				<a href="/felvetelizoknek/kiegeszito-felveteli-eljaras-informatikai-kepzesi-teruletre/" class="menu-item"><span>Kiegészítő felvételi eljárás informatikai képzési területre</span></a>
+			</li>
+		</ul>
+		<ul class="menu-level menu-level-1 menu-level-inactive menu-level-1-inactive">
+			<li>
+				<a href="/felvetelizoknek/reszismereti-kepzes/" class="menu-item"><span>Részismereti képzés</span></a>
+			</li>
+		</ul>
+		<ul class="menu-level menu-level-1 menu-level-inactive menu-level-1-inactive">
+			<li>
+				<a href="/felvetelizoknek/vendeghallgatoi-jogviszony/" class="menu-item"><span>Vendéghallgatói jogviszony</span></a>
+			</li>
+		</ul>
+		<ul class="menu-level menu-level-1 menu-level-inactive menu-level-1-inactive">
+			<li>
+				<a href="/felvetelizoknek/szakiranyu-tovabbkepzesek/" class="menu-item"><span>Szakirányú továbbképzések</span></a>
+			</li>
+		</ul>
+		<ul class="menu-level menu-level-1 menu-level-inactive menu-level-1-inactive">
+			<li>
+				<a href="/felvetelizoknek/portal_urlapok/" class="menu-item last"><span>Portál űrlapok</span></a>
+			</li>
+		</ul>
+
+				</div>
+			</li>
+		</ul>
+		<ul class="menu-level menu-level-0 menu-level-0-with-submenu menu-level-inactive menu-level-0-inactive">
+			<li>
+				<a href="/tanulmanyi-tajekoztato/" class="menu-item"><span>Tanulmányi tájékoztató</span></a>
+				<div class="submenu">
+
+		<ul class="menu-level menu-level-1 menu-level-1-with-submenu menu-level-inactive menu-level-1-inactive">
+			<li>
+				<a href="/tanulmanyi-tajekoztato/kari-informaciok/" class="menu-item first"><span>Kari információk</span></a>
+				<div class="submenu">
+
+		<ul class="menu-level menu-level-2 menu-level-inactive menu-level-2-inactive">
+			<li>
+				<a href="/tanulmanyi-tajekoztato/kari-informaciok/epitomernoki-kar/" class="menu-item first"><span>Építőmérnöki Kar</span></a>
+			</li>
+		</ul>
+		<ul class="menu-level menu-level-2 menu-level-inactive menu-level-2-inactive">
+			<li>
+				<a href="/tanulmanyi-tajekoztato/kari-informaciok/gepeszmernoki-kar/" class="menu-item"><span>Gépészmérnöki Kar</span></a>
+			</li>
+		</ul>
+		<ul class="menu-level menu-level-2 menu-level-inactive menu-level-2-inactive">
+			<li>
+				<a href="/tanulmanyi-tajekoztato/kari-informaciok/epiteszmernoki-kar/" class="menu-item"><span>Építészmérnöki Kar</span></a>
+			</li>
+		</ul>
+		<ul class="menu-level menu-level-2 menu-level-inactive menu-level-2-inactive">
+			<li>
+				<a href="/tanulmanyi-tajekoztato/kari-informaciok/vegyeszmernoki-es-biomernoki-kar/" class="menu-item"><span>Vegyészmérnöki és Biomérnöki Kar</span></a>
+			</li>
+		</ul>
+		<ul class="menu-level menu-level-2 menu-level-inactive menu-level-2-inactive">
+			<li>
+				<a href="/tanulmanyi-tajekoztato/kari-informaciok/villamosmernoki-es-informatikai-kar/" class="menu-item"><span>Villamosmérnöki és Informatikai Kar</span></a>
+			</li>
+		</ul>
+		<ul class="menu-level menu-level-2 menu-level-inactive menu-level-2-inactive">
+			<li>
+				<a href="/tanulmanyi-tajekoztato/kari-informaciok/kozlekedesmernoki-es-jarmumernoki-kar/" class="menu-item"><span>Közlekedésmérnöki és Járműmérnöki Kar</span></a>
+			</li>
+		</ul>
+		<ul class="menu-level menu-level-2 menu-level-inactive menu-level-2-inactive">
+			<li>
+				<a href="/tanulmanyi-tajekoztato/kari-informaciok/gazdasag--es-tarsadalomtudomanyi-kar/" class="menu-item"><span>Gazdaság- és Társadalomtudományi Kar</span></a>
+			</li>
+		</ul>
+		<ul class="menu-level menu-level-2 menu-level-inactive menu-level-2-inactive">
+			<li>
+				<a href="/tanulmanyi-tajekoztato/kari-informaciok/termeszettudomanyi-kar/" class="menu-item last"><span>Természettudományi Kar</span></a>
+			</li>
+		</ul>
+
+				</div>
+			</li>
+		</ul>
+		<ul class="menu-level menu-level-1 menu-level-1-with-submenu menu-level-inactive menu-level-1-inactive">
+			<li>
+				<a href="/tanulmanyi-tajekoztato/tanulmanyi-ugyintezes/" class="menu-item"><span>Tanulmányi ügyintézés</span></a>
+				<div class="submenu">
+
+		<ul class="menu-level menu-level-2 menu-level-inactive menu-level-2-inactive">
+			<li>
+				<a href="/tanulmanyi-tajekoztato/tanulmanyi-ugyintezes/szabalyzatok/" class="menu-item first"><span>Szabályzatok</span></a>
+			</li>
+		</ul>
+		<ul class="menu-level menu-level-2 menu-level-inactive menu-level-2-inactive">
+			<li>
+				<a href="/tanulmanyi-tajekoztato/tanulmanyi-ugyintezes/tanev-idobeosztasa/" class="menu-item"><span>Tanév időbeosztása</span></a>
+			</li>
+		</ul>
+		<ul class="menu-level menu-level-2 menu-level-inactive menu-level-2-inactive">
+			<li>
+				<a href="/tanulmanyi-tajekoztato/tanulmanyi-ugyintezes/a-neptunrol/" class="menu-item"><span>A Neptunról</span></a>
+			</li>
+		</ul>
+		<ul class="menu-level menu-level-2 menu-level-inactive menu-level-2-inactive">
+			<li>
+				<a href="/tanulmanyi-tajekoztato/tanulmanyi-ugyintezes/beiratkozasbejelentkezes---osz/" class="menu-item new-window"><span>Beiratkozás/bejelentkezés - ősz</span></a>
+			</li>
+		</ul>
+		<ul class="menu-level menu-level-2 menu-level-inactive menu-level-2-inactive">
+			<li>
+				<a href="/tanulmanyi-tajekoztato/tanulmanyi-ugyintezes/beiratkozasbejelentkezes---tavasz/" class="menu-item"><span>Beiratkozás/bejelentkezés - tavasz</span></a>
+			</li>
+		</ul>
+		<ul class="menu-level menu-level-2 menu-level-inactive menu-level-2-inactive">
+			<li>
+				<a href="/tanulmanyi-tajekoztato/tanulmanyi-ugyintezes/ugyintezes-rendje/" class="menu-item"><span>Ügyintézés rendje</span></a>
+			</li>
+		</ul>
+		<ul class="menu-level menu-level-2 menu-level-inactive menu-level-2-inactive">
+			<li>
+				<a href="/tanulmanyi-tajekoztato/tanulmanyi-ugyintezes/hallgatoi-penzugyek/" class="menu-item"><span>Hallgatói pénzügyek</span></a>
+			</li>
+		</ul>
+		<ul class="menu-level menu-level-2 menu-level-inactive menu-level-2-inactive">
+			<li>
+				<a href="/tanulmanyi-tajekoztato/tanulmanyi-ugyintezes/hallgatoi-jogorvoslat-rendje/" class="menu-item last"><span>Hallgatói jogorvoslat rendje</span></a>
+			</li>
+		</ul>
+
+				</div>
+			</li>
+		</ul>
+		<ul class="menu-level menu-level-1 menu-level-1-with-submenu menu-level-inactive menu-level-1-inactive">
+			<li>
+				<a href="/tanulmanyi-tajekoztato/egyetemi-szolgaltatasok/" class="menu-item"><span>Egyetemi szolgáltatások</span></a>
+				<div class="submenu">
+
+		<ul class="menu-level menu-level-2 menu-level-inactive menu-level-2-inactive">
+			<li>
+				<a href="/tanulmanyi-tajekoztato/egyetemi-szolgaltatasok/eselyegyenloseg/" class="menu-item first"><span>Esélyegyenlőség</span></a>
+			</li>
+		</ul>
+		<ul class="menu-level menu-level-2 menu-level-inactive menu-level-2-inactive">
+			<li>
+				<a href="/tanulmanyi-tajekoztato/egyetemi-szolgaltatasok/felzarkoztatas/" class="menu-item new-window"><span>Felzárkóztatás</span></a>
+			</li>
+		</ul>
+		<ul class="menu-level menu-level-2 menu-level-inactive menu-level-2-inactive">
+			<li>
+				<a href="/tanulmanyi-tajekoztato/egyetemi-szolgaltatasok/hallgatoi-tanacsadas/" class="menu-item"><span>Hallgatói tanácsadás</span></a>
+			</li>
+		</ul>
+		<ul class="menu-level menu-level-2 menu-level-inactive menu-level-2-inactive">
+			<li>
+				<a href="/tanulmanyi-tajekoztato/egyetemi-szolgaltatasok/hallgatoi-juttatasok-es-teritesek/" class="menu-item new-window"><span>Hallgatói juttatások és térítések</span></a>
+			</li>
+		</ul>
+		<ul class="menu-level menu-level-2 menu-level-inactive menu-level-2-inactive">
+			<li>
+				<a href="/tanulmanyi-tajekoztato/egyetemi-szolgaltatasok/kollegium/" class="menu-item"><span>Kollégium</span></a>
+			</li>
+		</ul>
+		<ul class="menu-level menu-level-2 menu-level-inactive menu-level-2-inactive">
+			<li>
+				<a href="/tanulmanyi-tajekoztato/egyetemi-szolgaltatasok/konyvtar/" class="menu-item new-window"><span>Könyvtár</span></a>
+			</li>
+		</ul>
+		<ul class="menu-level menu-level-2 menu-level-inactive menu-level-2-inactive">
+			<li>
+				<a href="/tanulmanyi-tajekoztato/egyetemi-szolgaltatasok/mobilitas/" class="menu-item new-window"><span>Mobilitás</span></a>
+			</li>
+		</ul>
+		<ul class="menu-level menu-level-2 menu-level-inactive menu-level-2-inactive">
+			<li>
+				<a href="/tanulmanyi-tajekoztato/egyetemi-szolgaltatasok/nyelvoktatas-nyelvvizsga-forditokepzes/" class="menu-item"><span>Nyelvoktatás-Nyelvvizsga-Fordítóképzés</span></a>
+			</li>
+		</ul>
+		<ul class="menu-level menu-level-2 menu-level-inactive menu-level-2-inactive">
+			<li>
+				<a href="/tanulmanyi-tajekoztato/egyetemi-szolgaltatasok/sportolasi-lehetosegek/" class="menu-item"><span>Sportolási lehetőségek</span></a>
+			</li>
+		</ul>
+		<ul class="menu-level menu-level-2 menu-level-inactive menu-level-2-inactive">
+			<li>
+				<a href="/tanulmanyi-tajekoztato/egyetemi-szolgaltatasok/szamitogepes-szolgaltatasok/" class="menu-item new-window"><span>Számítógépes szolgáltatások</span></a>
+			</li>
+		</ul>
+		<ul class="menu-level menu-level-2 menu-level-inactive menu-level-2-inactive">
+			<li>
+				<a href="/tanulmanyi-tajekoztato/egyetemi-szolgaltatasok/tehetseggondozas/" class="menu-item new-window last"><span>Tehetséggondozás</span></a>
+			</li>
+		</ul>
+
+				</div>
+			</li>
+		</ul>
+		<ul class="menu-level menu-level-1 menu-level-inactive menu-level-1-inactive">
+			<li>
+				<a href="/tanulmanyi-tajekoztato/korabbi-tanevek-tajekoztatoi/" class="menu-item last"><span>Korábbi tanévek tájékoztatói</span></a>
+			</li>
+		</ul>
+
+				</div>
+			</li>
+		</ul>
+		<ul class="menu-level menu-level-0 menu-level-0-with-submenu menu-level-inactive menu-level-0-inactive">
+			<li>
+				<a href="/munkatarsaknak/" class="menu-item"><span>Munkatársaknak</span></a>
+				<div class="submenu">
+
+		<ul class="menu-level menu-level-1 menu-level-inactive menu-level-1-inactive">
+			<li>
+				<a href="/munkatarsaknak/tanszekeknek/" class="menu-item first"><span>Tanszékeknek, dékáni hivataloknak</span></a>
+			</li>
+		</ul>
+		<ul class="menu-level menu-level-1 menu-level-inactive menu-level-1-inactive">
+			<li>
+				<a href="/munkatarsaknak/neptun-regisztracio-kliensek/" class="menu-item"><span>Neptun-regisztráció, kliensek</span></a>
+			</li>
+		</ul>
+		<ul class="menu-level menu-level-1 menu-level-inactive menu-level-1-inactive">
+			<li>
+				<a href="/munkatarsaknak/neptun-dokumentaciok/" class="menu-item"><span>Neptun-dokumentációk</span></a>
+			</li>
+		</ul>
+		<ul class="menu-level menu-level-1 menu-level-inactive menu-level-1-inactive">
+			<li>
+				<a href="/munkatarsaknak/fir-info/" class="menu-item last"><span>FIR info</span></a>
+			</li>
+		</ul>
+
+				</div>
+			</li>
+		</ul>
+		<ul class="menu-level menu-level-0 menu-level-0-with-submenu menu-level-inactive menu-level-0-inactive">
+			<li>
+				<a href="/magunkrol/" class="menu-item last"><span>Magunkról</span></a>
+				<div class="submenu">
+
+		<ul class="menu-level menu-level-1 menu-level-inactive menu-level-1-inactive">
+			<li>
+				<a href="/magunkrol/bemutatkozas/" class="menu-item first"><span>Bemutatkozás</span></a>
+			</li>
+		</ul>
+		<ul class="menu-level menu-level-1 menu-level-1-with-submenu menu-level-inactive menu-level-1-inactive">
+			<li>
+				<a href="/magunkrol/neptun-uzemeltetes/" class="menu-item"><span>Neptun üzemeltetés</span></a>
+				<div class="submenu">
+
+		<ul class="menu-level menu-level-2 menu-level-2-with-submenu menu-level-inactive menu-level-2-inactive">
+			<li>
+				<a href="/magunkrol/neptun-uzemeltetes/neptunrol/" class="menu-item first"><span>A Neptunról</span></a>
+				<div class="submenu">
+
+		<ul class="menu-level menu-level-3 menu-level-inactive menu-level-3-inactive">
+			<li>
+				<a href="/magunkrol/neptun-uzemeltetes/neptunrol/neptun-regisztracio/" class="menu-item first"><span>Neptun-regisztráció</span></a>
+			</li>
+		</ul>
+		<ul class="menu-level menu-level-3 menu-level-inactive menu-level-3-inactive">
+			<li>
+				<a href="/magunkrol/neptun-uzemeltetes/neptunrol/regisztracios-urlapok/" class="menu-item last"><span>Neptun-regisztrációs űrlapok</span></a>
+			</li>
+		</ul>
+
+				</div>
+			</li>
+		</ul>
+		<ul class="menu-level menu-level-2 menu-level-inactive menu-level-2-inactive">
+			<li>
+				<a href="/magunkrol/neptun-uzemeltetes/bemutatkozas/" class="menu-item"><span>Bemutatkozás</span></a>
+			</li>
+		</ul>
+		<ul class="menu-level menu-level-2 menu-level-inactive menu-level-2-inactive">
+			<li>
+				<a href="/magunkrol/neptun-uzemeltetes/munkatarsak/" class="menu-item"><span>Munkatársak</span></a>
+			</li>
+		</ul>
+		<ul class="menu-level menu-level-2 menu-level-inactive menu-level-2-inactive">
+			<li>
+				<a href="/magunkrol/neptun-uzemeltetes/elerhetosegeink/" class="menu-item last"><span>Elérhetőségeink</span></a>
+			</li>
+		</ul>
+
+				</div>
+			</li>
+		</ul>
+		<ul class="menu-level menu-level-1 menu-level-inactive menu-level-1-inactive">
+			<li>
+				<a href="/magunkrol/munkatarsak/" class="menu-item"><span>Munkatársak</span></a>
+			</li>
+		</ul>
+		<ul class="menu-level menu-level-1 menu-level-inactive menu-level-1-inactive">
+			<li>
+				<a href="/magunkrol/elerhetosegeink/" class="menu-item"><span>Elérhetőségeink</span></a>
+			</li>
+		</ul>
+		<ul class="menu-level menu-level-1 menu-level-inactive menu-level-1-inactive">
+			<li>
+				<a href="/magunkrol/csaladbarat-bme/" class="menu-item last"><span>Családbarát BME</span></a>
+			</li>
+		</ul>
+
+				</div>
+			</li>
+		</ul>
+
+			<div class="clear"><!-- --></div>
+		</nav>
+
+		<div id="site-content">
+
+			<div id="main">
+
+
+
+
+
+
+
+<h1 style="text-align: left;">TANULMÁNYI ÜGYEK<a id="tanugyek"></a><br /><br /></h1>
+<ul>
+<li><a href="#beiratkozas">Mit kell tudni a beiratkozásról, bejelentkezésről?</a></li>
+<li><a href="#felevhalasztas">Hogyan lehet félévet halasztani?</a></li>
+<li><a href="#elmulasztottbejelentkezes">Elfelejtettem bejelentkezni a félévre, most mi fog történni?</a></li>
+<li><a href="#kthpassziv">Aktív státuszra jelentkeztem be, a kth mégis passzívra módosította a státuszom. Miért?</a></li>
+<li><a href="#utolagosaktiv">Passzív a státuszom, hogyan lehetne mégis aktív, ha már nem tudom módosítani?</a></li>
+<li><a href="#utolagospassziv">Aktív a státuszom, hogyan lehetne mégis passzív, ha már nem tudom módosítani?</a></li>
+<li><a href="#kedvezmenyes">Milyen indokkal és meddig kérhetek kedvezményes tanulmányi rendet?</a></li>
+<li><a href="#targyfelvetel">Hogyan kell tantárgyat felvenni és leadni?</a></li>
+<li><a href="#hibastargyfelvetel">Nem tudok felvenni egy tárgyat, mi lehet a hiba?</a></li>
+<li><a href="#varolista">Várólistán maradtam egy kurzuson, bejárhatok ettől még az órára?</a></li>
+<li><a href="#utolagostargyfelvetel">Elfelejtettem felvenni/leadni egy tárgyat, utólag kérhetem a tárgy felvételét/leadását?</a></li>
+<li><a href="#nemteljesitetttargy">Nem teljesítettem egy tárgyat, mi történik most? </a></li>
+<li><a href="#alairas">Meddig érvényes az aláírásom?</a></li>
+<li><a href="#javitocelzatu">Teljesítettem a tantárgyat, de szeretnék jobb jegyet. mit tehetek?</a></li>
+<li><a href="#kesedelmesfeladat">Elfelejtettem időben leadni a feladatomat, késedelmesen leadhatom?</a></li>
+<li><a href="#potlas">Hogyan pótolhatom a nem teljesített zárthelyi dolgozatomat?</a></li>
+<li><a href="#sikertelenvizsgajelentkezes">Miért nem sikerül a vizsgajelentkezés?</a></li>
+<li><a href="#ismeteltvizsga">Hányszor vizsgázhatok egy tárgyból?</a></li>
+<li><a href="#kepzesvaltas">Szeretnék képzést váltani, mi a teendőm?</a></li>
+<li><a href="#elbocsatas">Mikor szűnik meg a hallgatói jogviszonyom?</a></li>
+<li><a href="#zvjelentkezes">Hogyan tudok záróvizsgára jelentkezni/a záróvizsgáról lejelentkezni?</a></li>
+<li><a href="#sikertelenzvjelentkezes">Nem sikerül jelentkeznem a záróvizsga időszakra, mi lehet az oka?</a></li>
+<li><a href="#zvhatarido">Meddig tehetek záróvizsgát?</a></li>
+</ul>
+<hr />
+<p>&nbsp;</p>
+<h3><a id="beiratkozas"></a>Mit kell tudni a beiratkozásról, bejelentkezésről?</h3>
+<p style="text-align: justify;"><strong>BEIRATKOZÁS (elsős hallgatók):</strong> hallgatói jogviszonyt beiratkozással lehet létesíteni. Beiratkozni csak a képzés kezdetekor kell, viszont átvételkor, képzésváltáskor vagy újra felvétel esetén ismét szükséges!  A Neptun rendszerben történő belépés után el kell végezni a bejelentkezést a félévre, majd a személyes adatok ellenőrzését követően ki kell nyomtatni két példányban a beiratkozási lapot, amit aláírva le kell adni a beiratkozáson. A beiratkozás időpontját az aktuális félév ütemezése szerint hírlevélben tesszük közzé.</p>
+<p style="text-align: justify;"><strong>BEJELENTKEZÉS (felsőbb évesek):</strong> A bejelentkezést minden félév elején a bejelentkezési időszakban kell elvégezni a Neptun hallgatói weben. Ez az időszak az előzetes tárgyfelvétel előtt néhány nappal kezdődik és a regisztrációs hét végéig tart. Bejelentkezni a Neptun <i>Ügyintézés/Beiratkozás/Bejelentkezés</i> felületén az adott félév kiválasztását követően a + (Lehetőségek) opción belül a Bejelentkezést kiválasztva, majd a Nyilatkozat - félév státuszáról feliratú ablakban az aktív vagy passzív lehetőség megjelölése után a Nyilatkozom gombra kattintva lehet. A Neptun egy üzenőablakban visszajelez a bejelentkezés sikerességéről.</p>
+<p style="text-align: justify;">Aktív félévre lejárt határidejű tartozás nélkül jelentkezhet be. Aktív státuszú befizetési kötelezettségét vagy aktív státuszú ösztöndíj visszafizetési kötelezettségét a Neptunban a <em>Pénzügyek </em>- <em>Befizetés</em> menüponton a „Minden félévet” kiválasztva tudja ellenőrizni.</p>
+<p style="text-align: justify;">Minden képzésen, ahol jogviszonnyal rendelkezik, el kell végezni a bejelentkezést. A képzések között vál(asz)tani a Neptun ablak bal felső sarkában található Képzés menüpontra kattintva megjelenő Képzésválasztás ablakban tud.</p>
+<p style="text-align: right;"><a href="#tanugyek"><strong>vissza</strong></a></p>
+<h3><a id="felevhalasztas"></a>Hogyan lehet félévet halasztani?</h3>
+<p style="text-align: justify;">A BME TVSZ alapján a hallgatónak a bejelentkezési időszakban a Neptunban kell nyilatkoznia arról, hogy az adott félévben a hallgatói jogviszonyát szüneteltetni szeretné, vagyis passzívra kell állítania a bejelentkezéskor a státuszát. A BME szabályai szerint akár beiratkozás félévében is lehet a hallgató státusza passzív, a létrejött hallgatói jogviszonyát azonnal szüneteltetheti a hallgató. (Fontos, hogy a beiratkozáson ekkor is részt kell venni!)</p>
+<p style="text-align: justify;">A hallgató jogviszonyát több alkalommal is szüneteltetheti, de a jogviszony szüneteltetésének egybefüggő időtartama maximum két félév lehet. A hallgatói jogviszony egybefüggő szüneteltetésének két félévnél hosszabb időtartamát a hallgató kérelmére, különösen indokolt esetben a Kari Tanulmányi Bizottság engedélyezheti.</p>
+<p style="text-align: justify;"><span>A BME TVSZ alapján a passzív félévek összesített száma korlátozott az alábbiak szerint: alapképzésen 4, mesterképzésen 4, osztatlan képzésen 6 passzív féléve lehet összesen.</span></p>
+<p style="text-align: right;"><span><a href="#tanugyek"><strong>vissza</strong></a></span></p>
+<h3><a id="elmulasztottbejelentkezes"></a>Elfelejtettem bejelentkezni a félévre, most mi fog történni?</h3>
+<p>Az első oktatási héten a KTH bejelentkezteti passzív félévre, ugyanis a BME TVSZ alapján ebben az esetben a félévet passzív félévként kell nyilvántartani.</p>
+<p style="text-align: justify;">Ha a félévre bejelentkezést harmadik alkalommal mulasztja el, vagyis nem jelenti be sem tanulmányai folytatását, sem annak szüneteltetését, hallgatói jogviszonya a regisztrációs időszak utolsó napjával megszüntetésre kerül.</p>
+<p style="text-align: right;"><a href="#tanugyek"><strong>vissza</strong></a></p>
+<h3><a id="kthpassziv"></a>Aktív státuszra jelentkeztem be, a KTH mégis passzívra módosította a státuszom. Miért?</h3>
+<p style="text-align: justify;">Amennyiben a regisztrációs hét végén lejárt határidejű fizetési kötelezettsége van, vagy önköltséges finanszírozású képzésre átsorolt hallgatóként nem írja alá és nem adja le a képzési szerződését a KTH-ban (ezáltal nem nyilatkozik a tanulmányai önköltséges formában történő folytatásáról), vagy a <span>harmadik oktatási hét második munkanapjáig nem vesz fel tantárgyat,</span> a KTH a TVSZ alapján hivatalból passzívra módosítja a féléves státuszát.</p>
+<p style="text-align: right;"><a href="#tanugyek"><strong>vissza</strong></a></p>
+<h3><a id="utolagosaktiv"></a>Passzív a státuszom, hogyan lehetne mégis aktív, ha már nem tudom módosítani?</h3>
+<p style="text-align: justify;">A regisztrációs hét után a félév utólagos aktiválása már csak kérvény leadásával és különeljárási díj befizetésével lehetséges az aktuális félév ütemezésében megadott határidőig. Amennyiben a KTH módosította passzívra a státuszát, előbb meg kell szüntetni a passziválás indokát (leadni a képzési szerződést, befizetni a tartozást, stb.), utána kérelmezheti a félév aktiválását.</p>
+<p style="text-align: right;"><a href="#tanugyek"><strong>vissza</strong></a></p>
+<h3><a id="utolagospassziv"></a>Aktív a státuszom, hogyan lehetne mégis passzív, ha már nem tudom módosítani?</h3>
+<p style="text-align: justify;">A regisztrációs hét után már csak kérvénnyel vonhatja vissza a hallgató a bejelentkezését, vagyis lehet passzív a státusza. Őszi félévben október 14-ig, tavaszi félévben március 14-ig külön indoklás nélkül kérhető a passziválás, utána csak rendkívüli esetekben (szülés, baleset, betegség vagy más, önhibán kívüli váratlan indok) kérhető.</p>
+<p style="text-align: right;"><a href="#tanugyek"><strong>vissza</strong></a></p>
+<h3><a id="kedvezmenyes"></a>Milyen indokkal és meddig kérhetek kedvezményes tanulmányi rendet?</h3>
+<p style="text-align: justify;">A KTB kedvezményes tanulmányi rendet engedélyezhet tanulmányi kötelezettségek teljesítéséhez az alábbi indokok alapján:</p>
+<ul>
+<li>
+<p style="text-align: justify;">kiemelkedő tanulmányi eredmény, illetve tehetséggondozási programban való részvétel,</p>
+</li>
+<li style="text-align: justify;">
+<p>párhuzamos képzésben – ide értve a nemzetközi csereprogramokat, mobilitási programokat és más ösztöndíjas képzéseket is – való részvétel,</p>
+</li>
+<li style="text-align: justify;">
+<p>folyamatosan jó tanulmányi eredmény mellett végzett kiemelkedő szakmai tevékenység, illetve közösségi tevékenység vagy közfeladat ellátása,</p>
+</li>
+<li style="text-align: justify;">
+<p>országos szintű, aktív élsportolói tevékenység,</p>
+</li>
+<li style="text-align: justify;">
+<p>szülés, illetve gyermekgondozás, továbbá szülési szabadság,</p>
+</li>
+<li style="text-align: justify;">
+<p>szociális, illetve egészségügyi helyzet.</p>
+</li>
+</ul>
+<p style="text-align: justify;">A kérelmet a regisztrációs hét végéig kell benyújtani vagy a szociális, illetve egészségügyi helyzet változása esetén a kérelem indokául szolgáló helyzet megváltozását követően.</p>
+<p style="text-align: right;"><a href="#tanugyek" style="font-size: 10pt; text-align: right;"><strong>vissza</strong></a></p>
+<h3><a id="targyfelvetel"></a>Hogyan kell tantárgyat felvenni és leadni?</h3>
+<p style="text-align: justify;">A tantárgyfelvétel a Neptun hallgatói web Tárgyak/Tárgyfelvétel felületén történik. A Csak a meghirdetett tárgyak jelölőnégyzet bepipálását követően a féléveknél az aktuális félévet kiválasztva, a tárgytípusnál a mintatanterv tárgyait bejelölve, majd a mintatantervek közül a megfelelőt kiválasztva listázhatóak a meghirdetett tantárgyak. A + (Lehetőségek) közül a Tárgy adatok opciót kiválasztva megjelennek a meghirdetett kurzusok. A felvenni kívánt kurzusok kiválasztása után a Mentés gombra kattintva felvételre kerül a tantárgy a megjelölt kurzusokkal.</p>
+<p style="text-align: justify;">Tantárgyleadáshoz a Tárgyak/Felvett tárgyak felületen az aktuális félévre felvett tantárgyak listázását követően a leadni kívánt tantárgynál a + (Lehetőségek) opción belül a Tárgyleadást választjuk.</p>
+<p style="text-align: right;"><a href="#tanugyek"><strong>vissza</strong></a></p>
+<h3 style="text-align: justify;"><a id="hibastargyfelvetel"></a>Nem tudok felvenni egy tárgyat, mi lehet a hiba?</h3>
+<p style="text-align: justify;">Ha nem tud felvenni egy tárgyat, ellenőrizze a következőket:</p>
+<ul>
+<li>
+<p>bejelentkezett aktív felévre?</p>
+</li>
+<li>
+<p>van lejárt idejű tartozása?</p>
+</li>
+<li>
+<p>teljesülnek a tantárgy, esetleg a kiválasztott kurzus felvételi követelményei? (Érdemes megnézni a kurzusok Megjegyzés mezőjét és a kurzus nyelvét is!)</p>
+</li>
+<li>
+<p>vizsgakurzus esetén rendelkezik érvényes aláírással?</p>
+</li>
+<li>
+<p>van elég hely a kurzuson? (Kurzuslétszám bővítését a tantárgyat oktató tanszéktől kérheti.)</p>
+</li>
+</ul>
+<p style="text-align: right;"><a href="#tanugyek"><strong>vissza</strong></a></p>
+<h3><a id="varolista"></a>Várólistán maradtam egy kurzuson, bejárhatok ettől még az órára?</h3>
+<p style="text-align: justify;">Ha várólistán maradt a szorgalmi időszak második hete után is, akkor fel kell keresnie a tanszéki adminisztrátort, hogy letörlik-e kurzusról, vagy a kurzus létszámának emelésével véglegesítik-e a kurzuson? Ugyanis ha a státusza várólistás marad, nem tud majd vizsgára jelentkezni a félév végén.</p>
+<p style="text-align: right;"><a href="#tanugyek"><strong>vissza</strong></a></p>
+<h3><a id="utolagostargyfelvetel"></a>Elfelejtettem felvenni/leadni egy tárgyat, utólag kérhetem a tárgy felvételét/leadását?</h3>
+<p style="text-align: justify;">Amennyiben a tantárgy- és kurzusfelvételi időszakban nem vett fel egy tárgyat, az aktuális félév ütemezésében megadott határidőig kérelmezheti a tárgy utólagos felvételét. Amennyiben a hallgató hibájából történik a mulasztás (pl. tartozás miatt nem vette fel a tárgyat, utólag kérte a félév aktiválását, stb.) a kérelem díjköteles, az utólagos felvételért/leadásért kurzusonként különeljárási díjat kell fizetni. Amennyiben a kérvény beadásának indoka valamilyen adminisztratív, tanszéki hiba, a kérelem díjmentes.</p>
+<p style="text-align: right;"><a href="#tanugyek"><strong>vissza</strong></a></p>
+<h3><a id="nemteljesitetttargy"></a>Nem teljesítettem egy tárgyat, mi történik most?</h3>
+<p style="text-align: justify;">Amennyiben 2012. szeptember 1-je előtt kezdte a képzését a hallgató, akkor a felvett, de nem teljesített tantárgyak esetében különeljárási díjat kell fizetni.</p>
+<p style="text-align: justify;">Ha 2012. szeptember 1. után kezdte a képzését a hallgató, akkor a tantárgy nem teljesítéséért nem kell fizetni, de a tantárgy újrafelvétele esetén kurzusonként külüneljárási díjat fognak kiróni (kivéve oktatási erőforrást nem igénylő kurzusok, pl. szakmai gyakorlat, szigorlat, egyes vizsgakurzusok).</p>
+<p style="text-align: right;"><a href="#tanugyek"><strong>vissza</strong></a></p>
+<h3><a id="alairas"></a>Meddig érvényes az aláírásom?</h3>
+<p style="text-align: justify;">A 2018/2019. tanév 2. félévben érvényben lévő vagy később megszerzett „Aláírva” aláírásbejegyzések - amennyiben a tantárgykövetelmény eltérő rendelkezést nem tartalmaz – az egyetemen folytatott tanulmányok (ideértve a szakváltás és újrafelvétel útján történő folytatást is) teljes időtartama alatt érvényes. A tantárgykövetelményben meghatározott aláírás érvényessége – a megszerzését követő – két félévnél rövidebb nem lehet.</p>
+<p style="text-align: right;"><a href="#tanugyek"><strong>vissza</strong></a></p>
+<p style="text-align: right;"></p>
+<h3><a id="javitocelzatu"></a>Teljesítettem a tantárgyat, de szeretnék jobb jegyet. Mit tehetek?</h3>
+<p style="text-align: justify;">Kérelem beadásával kérhető korábban legalább elégséges (2) eredménnyel teljesített tantárgy javító célzatú ismételt felvétele. Ugyanazon tantárgy esetében legfeljebb egy alkalommal élhet a hallgató a javító célú ismételt tantárgyteljesítés lehetőségével. Javító céllal tantárgyat felvenni a teljes tanulmányi idő alatt legfeljebb az oklevél megszerzéséhez szükséges kreditmennyiség – felfelé kerekített – tíz százalékáig lehet. A kérvény elfogadása esetén az aktuális félévre tényleges tantárgyfelvétel nem történik.</p>
+<p style="text-align: justify;">A kérelem beadása díjköteles! A díj a kérvény leadásakor aznapi befizetési határidővel kerül kiírásra, és a kérvény mindaddig Befizetésre vár státuszú marad, amíg a díj befizetése nem történik meg. Az ügyintéző a befizetés megtörténtéig nem is látja a kérvényt. A kiírt tétel befizetését követően kerül a kérvény az ügyintézőhöz, és lesz a státusza Ügyintézés alatt. A kérvényt a Kari Tanulmányi Bizottság bírálja el. Az engedélyről a KTH határozatot állít ki, amit digitális aláírással hitelesít, és feltölt a kérvényhez mellékletként. A határozatot a tantárgyat oktató tanszékre a hallgatónak kell eljuttatnia. A kérvény érvényességének vége után a kiírt, de be nem fizetett tételek törölve lesznek, így ezeknél a kérvényeknél nem történik ügyintézés.</p>
+<p style="text-align: justify;">Félév végén a tanszék <span>az ismételt vizsga eredményével kitöltött papír alapú engedélyt belső postával</span> megküldi a hallgató ügyintézőjének. Javítás esetén az eredmény a tantárgy eredeti teljesítésének félévére kerül bejegyzésre. A javító célú ismételt tantárgyfelvétel során az érintett tantárgyból korábban megszerzett kredit nem vehető el, továbbá a korábbi és az új eredmény közül a hallgató számára kedvezőbbet kell figyelembe venni. Amennyiben nem teljesíti, vagy rosszabb eredménnyel teljesíti a tantárgyat, korábbi eredménye marad érvényben.</p>
+<p style="text-align: right;"><a href="#tanugyek"><strong>vissza</strong></a></p>
+<h3><a id="kesedelmesfeladat"></a>Elfelejtettem időben leadni a feladatomat, késedelmesen leadhatom?</h3>
+<p style="text-align: justify;">Amennyiben a tárgykövetelmény engedi, az otthon elkészített feladat, terv, hallgatói mű, stb. a pótlási időszak végéig késedelmesen beadható. A késedelmes feladatleadásért különeljárási díjat (KED) kell fizetni, ami akkor kerül kirovásra, ha a tanszék a „majd kiírandó tanszéki különeljárási díj” típusú évközi feladathoz eredményt rögzít.</p>
+<p style="text-align: right;"><a href="#tanugyek"><strong>vissza</strong></a></p>
+<h3><a id="potlas"></a>Hogyan pótolhatom a nem teljesített zárthelyi dolgozatomat?</h3>
+<p style="text-align: justify;">Ha a tárgykövetelményeket és a TVSZ által megszabott jelenléti követelményeket teljesítette, akkor egy alkalommal díjmentes javításra, ismétlésre vagy pótlásra jogosult. Ez a lehetőség a Tárgyak/Feladatok felületen jelenik meg, a jelentkezés az oktató által közölt módon történik.</p>
+<p style="text-align: justify;">Különeljárási díj (KED) megfizetése mellett második alkalommal is lehet ismételni vagy javítani, ha a tárgykövetelmény erre lehetőséget biztosít, és az első teljesítményértékelésen vagy annak pótlási/ismétlési/javítási alkalmon részt vett. Erre jelentkezni a Vizsgák/Vizsgajelentkezések felületen lehet mint „Díjköteles pótlás” típusú vizsga.</p>
+<p>Aki „Díjköteles pótlás” típusú vizsgán vesz részt, annak a pótlási időszak végén automatikusan ki lesz írva a különeljárási díj -KED. A különeljárási díj mértéke 4500 Ft.</p>
+<p style="text-align: right;"><a href="#tanugyek"><strong>vissza</strong></a></p>
+<h3><a id="sikertelenvizsgajelentkezes"></a>Miért nem sikerül a vizsgajelentkezés?</h3>
+<p style="text-align: justify;">Ha nem tud vizsgára jelentkezni, mert a program azt írja ki, hogy nincs vizsgajelentkezési időszak, akkor nézze meg, jó félévet választott-e ki? Ha a félév jó, tehát nem az a gond, akkor nézze meg a Vizsgák menüpont alatt az adott tárgynál a Lehetőségek – Vizsgaadatok - Alapadatok fülön az Egyedi vizsgajelentkezési időszak kezdetét-végét.</p>
+<p style="text-align: justify;">Ha nem tud vizsgára jelentkezni, mert a program azt írja ki, hogy nem teljesült a vizsgajelentkezési feltétel, akkor nézze meg, hogy nincs-e lejárt határidejű aktív státuszú befizetési kötelezettsége a Neptunban a Pénzügyek - Befizetés menüponton a Minden félévet kiválasztva, vagy nincs-e aktív státuszú ösztöndíj-visszafizetési kötelezettsége.</p>
+<p style="text-align: right;"><a href="#tanugyek"><strong>vissza</strong></a></p>
+<h3><a id="ismeteltvizsga"></a>Hányszor vizsgázhatok egy tárgyból?</h3>
+<p style="text-align: justify;">Adott félévben egy tantárgyból tehető vizsgák száma nincs korlátozva. Az ugyanabból a tantárgyból 2016. szeptember 1-jétől tett harmadik és minden további vizsga (szigorlat) díjköteles.</p>
+<p style="text-align: right;"><a href="#tanugyek"><strong>vissza</strong></a></p>
+<h3><a id="kepzesvaltas"></a>Szeretnék képzést váltani, mi a teendőm?</h3>
+<p style="text-align: justify;">BME-n belül szakváltás/képzési hely/képzési nyelv/munkarend váltás díjmentesen kérhető, a Neptunban leadható <i>011 Átvételi kérelemben</i>.<br /> Az átvétel ugyanazon képzési területhez tartozó, azonos végzettségi szintet eredményező szakok között kérhető (kivéve osztatlan képzésből alapképzésbe).<i><br /> </i>A kérelem kitöltésekor csak az azonos képzési területhez tartozó képzésekből lehet választani.<br /> Az őszi félévre vonatkozóan legkésőbb július 15-ig, a tavaszi félévre vonatkozóan legkésőbb január 30-ig adható le. A félév tárgyaink teljesítése után javasolt a kérelmet mielőbb beadni. <br /> Amennyiben alkalmassági vizsga is a felvételi követelmény részét képezi, az átvételi kérelmet a vizsga előtt 15 nappal be kell nyújtani. (Az alkalmassági vizsga időpontjáról a <a href="http://www.felvi.hu/">www.felvi.hu</a> honlapon tájékozódhat előzetesen.)</p>
+<p style="text-align: justify;">Az átvétel követelményeit, részletes szabályait a BME Tanulmányi és Vizsgaszabályzat 54-55. §-ai tartalmazzák, ami a KTH honlapján a <a href="https://www.kth.bme.hu/hallgatoknak/szabalyzatok/" target="_blank">Szabályzatok</a> menüponton belül érhető el. <em>A Karok által meghatározott esetleges további feltételekről a Kari honlapokon talál tájékoztatást</em>.</p>
+<p style="text-align: justify;">A kérelemhez nem csatolható melléklet. Engedélyezett képzésváltás esetén a korábban teljesített tárgyak elfogadására az új (átvett) képzésen kell beadnia a <em>024/A Tantárgy átvezetési, elismerési kérvény</em> kérelmet.</p>
+<p style="text-align: right;"><a href="#tanugyek"><strong>vissza</strong></a></p>
+<h3><a id="elbocsatas"></a>Mikor szűnik meg a hallgatói jogviszonyom?</h3>
+<p style="text-align: justify;">Egy hallgató jogviszonya több okból is megszűnhet. A BME <strong>tanulmányi okból</strong> az alábbi indokok alapján bocsát el hallgatókat (TVSZ 64. §):</p>
+<ul style="text-align: justify;">
+<li>
+<p>amennyiben a hallgató képzési idő kétszerese alatt nem szerez végbizonyítványt (abszolutóriumot);</p>
+</li>
+<li>
+<p><span style="text-decoration: line-through;">amennyiben azonos képzésen, azonos tantárgyból 2012. szeptember 1-jét követően tett sikertelen vizsgáinak/szigorlatainak, javító- és ismétlő javító vizsgáinak/szigorlatainak összesített száma eléri a hatot (vagyis hat elégtelen (1) jegyet kap egy tantárgyból);</span> (Az Nftv. 2022. évi LIX. törvény általi módosítása alapján 2022.12.20-tól nem elbocsátási indok.)</p>
+</li>
+<li>
+<p>amennyiben ugyanazon tantárgy kreditpontját a 2015/2016. tanév második félévétől kezdődően hatszori tantárgyfelvétel után sem szerzi meg (vagyis egy tántárgyat hatszor felvett és nem teljesített);</p>
+</li>
+<li>
+<p>amennyiben 2015. október 1-je után létesített hallgatói jogviszonyt alapképzésben vagy osztatlan képzésben, és halmozott súlyozott tanulmányi átlaga a beiratkozást követő negyedik aktív félév végén nem éri el a 2,25 értéket;</p>
+</li>
+<li>
+<p>amennyiben 2015. október 1-je után létesített hallgatói jogviszonyt mesterképzésben, és a halmozott súlyozott tanulmányi átlaga a beiratkozást követő második aktív félév végén nem éri el a 2,50 értéket;</p>
+</li>
+<li>
+<p>amennyiben 2015. október 1-je után létesített hallgatói jogviszonyt, és az utolsó három aktív félévében nem szerzett legalább 20 kreditet, vagy az adott képzésre újra felvételt nyert, és a beiratkozástól számított első három aktív félévében nem szerzett legalább 10 kreditet (feltéve, hogy nem vett részt külföldi részképzésben, amelyben folytatott tanulmányai a BME-n beszámíthatók).</p>
+</li>
+</ul>
+<p style="text-align: justify;">Az elbocsátó határozat ellen kérelem leadásával fellebbezéssel élhet a hallgató. Ennek módjáról és határidejéről az elbocsátó határozatban kap tájékoztatást a hallgató.</p>
+<p style="text-align: justify;">Emellett megszűnhet a hallgató jogviszonya</p>
+<ul style="text-align: justify;">
+<li>
+<p>a hallgató <strong>saját kérésére</strong>;<br />Amennyiben a hallgató saját maga szeretné a hallgatói jogviszonyát megszüntetni, kérését a <i>032 Saját kérésre elbocsátás </i>Neptun kérvényen nyújthatja be. A kérvény folyamatosan elérhető.<br />Hallgatói jogviszonya a bejelentés napján, vagyis a kérvényleadás napján fog megszűnni.</p>
+</li>
+<li>
+<p><strong>átvétel vagy képzésváltás</strong>;<br />Amennyiben átvételét kezdeményezte másik BME képzésre vagy másik intézménybe, akkor az átvételi eljárás alatt a hallgatónak az átvételi döntést követő beiratkozásig vagy bejelentkezésig folyamatos jogviszonnyal kell rendelkeznie!</p>
+</li>
+<li>
+<p><strong>be nem jelentkezés</strong>;</p>
+</li>
+<li>
+<p><strong>passzív félévszám túllépése</strong>;</p>
+</li>
+<li>
+<p><strong>fizetési hátralék</strong></p>
+</li>
+</ul>
+<p style="text-align: justify;">miatti elbocsátással is.</p>
+<p style="text-align: right;"><a href="#tanugyek"><strong>vissza</strong></a></p>
+<h3 style="text-align: justify;"><a id="zvjelentkezes"></a>Hogyan tudok záróvizsgára jelentkezni/a záróvizsgáról lejelentkezni?</h3>
+<p style="text-align: justify;">A Neptunban az Ügyintézés/Záróvizsgák felületen kell kiválasztani azt az időszakot, amelyik az elvégzett képzés/specializáció (szakirány) megnevezését tartalmazza, vagy aminek a nevében az a tanszék került megjelölésre, ahol záróvizsgát tesz. Az időszak során állva a + (Lehetőségek) opción belül a Jelentkezés/Jelentkezés módosítása opciót kell kiválasztani, és a megjelenő Záróvizsga jelentkezés fejlécű ablakban a Mentés gombra kell kattintani. Amennyiben a jelentkezés kérvény kitöltéséhez van kötve, automatikusan megjelenik a kitöltendő kérvény, amit le kell adni.</p>
+<p style="text-align: justify;">Sikeres jelentkezés esetén egy üzenőablakban "Sikeresen jelentkezett a záróvizsga időszakra!" tartalmú visszaigazolást kap a Neptuntól és az időszak sorában egy zöld pipa lesz látható.</p>
+<p style="text-align: justify;">Fontos! Záróvizsga-időszakra kizárólag utolsó féléves hallgatók jelentkezhetnek. Akinek az előzetes ellenőrzés során nem teljesülnek a záróvizsgára bocsáthatóság feltételei, azt a jelentkezéskor hibaüzenetben tájékoztatjuk erről.</p>
+<p style="text-align: justify;"><span style="font-size: 10pt;">Amennyiben a Kar engedélyezi a záróvizsga-időszakról való lejelentkezést, az időszakon állva + (Lehetőségek) opción belül a Lejelentkezés opcióra kattintva jelentkezhet le a záróvizsga-időszakról.</span></p>
+<p style="text-align: right;"><span style="font-size: 10pt;"><a href="#tanugyek"><strong>vissza</strong></a><br /></span></p>
+<h3 style="text-align: justify;"><a id="sikertelenzvjelentkezes"></a>Nem sikerül jelentkeznem a záróvizsga időszakra, mi lehet az oka?</h3>
+<p style="text-align: justify;">Javasolt ellenőrizni a jelentkezéshez esetlegesen beállított feltétel(ek) teljesülését a<span>z időszak során állva a + (Lehetőségek) opción belül a Bővebb opciót választva az Alidőszakok között beállított Leírás/Jelentkezési feltétel mezőben.<br /></span></p>
+<p style="text-align: right;"><span><a href="#tanugyek"><strong>vissza</strong></a></span></p>
+<h3><a id="zvhatarido"></a>Meddig tehetek záróvizsgát?</h3>
+<p style="text-align: justify;">A záróvizsga letételének határideje a hallgatói jogviszony kezdetétől <span>függ:</span></p>
+<p style="padding-left: 30px; text-align: justify;">1. 2006.09.01 és 2012.08.31 között kezdett hallgatók: a záróvizsga letétele nincsen határidőhöz kötve, viszont a végbizonyítvány kiállításától számított hetedik év eltelte után feltételhez köthető.</p>
+<p style="padding-left: 30px; text-align: justify;">2. 2012. 09.01 után kezdett hallgatók: <span>a </span><span>végbizonyítvány kiállításától számítva 5 éven belül tehető záróvizsga. A jogviszony megszűnése után, két éven belül az érvényes képzési követelmények szerint, a második év eltelte után feltételhez köthető.</span></p>
+<p style="text-align: right;"><span><a href="#tanugyek"><strong>vissza</strong></a></span></p>
+<p style="padding-left: 30px; text-align: justify;"></p>
+<p style="padding-left: 30px; text-align: justify;"></p>
+<p style="text-align: justify;"><span> </span></p>
+<p style="text-align: justify;"></p>
+
+<div class="clear"><!-- --></div>
+
+
+
+				<div class="clear"><!-- --></div>
+			</div> 
+			<div id="sidebar">
+
+				<div class="sidebar-box" id="sidebar-login-box">
+					<a href="https://www.kth.bme.hu/Shibboleth.sso/Login?target=https%3A%2F%2Fwww.kth.bme.hu%2Fhallgatoknak%2Fgyik%2Ftanulmanyi-ugyek%2F" id="login-btn"></a>
+				</div>
+
+				<div class="sidebar-box" id="sidebar-opening-hours-box">
+					<h2 class="sidebar-title">Félfogadás</h2>
+
+
+					<a href="#" id="opening_hours-arrow"></a>
+
+					<div id="opening_hours-content" class="opening_hours_content">
+
+							<p class="date-no-reception">szombat, 03. 23.</p>
+							<p>
+								<span class="no-reception">nincs félfogadás</span>
+							</p>
+						<div style="display: none;" class="more">
+							<p class="date-no-reception">vasárnap, 03. 24.</p>
+							<p>
+								<span class="no-reception">nincs félfogadás</span>
+							</p>
+							<p class="date">hétfő, 03. 25.</p>
+							<p>
+								09:00 &ndash; 15:00  							</p>
+							<p class="date">kedd, 03. 26.</p>
+							<p>
+								11:00 &ndash; 15:00  							</p>
+							<p class="date">szerda, 03. 27.</p>
+							<p>
+								08:00 &ndash; 16:30  							</p>
+							<p class="date">csütörtök, 03. 28.</p>
+							<p>
+								09:00 &ndash; 13:00  							</p>
+							<p class="date-no-reception">péntek, 03. 29.</p>
+							<p>
+								<span class="no-reception">nincs félfogadás</span>
+							</p>
+						</div>
+
+
+					</div>
+
+					<p class="details"><a href="/nyitva-tartas/">Részletek &raquo;</a></p>
+
+
+				</div>
+				<div class="sidebar-box" id="sidebar-neptun-box">
+					<h2 class="sidebar-title">Neptun bejelentkezés</h2>
+
+					<div class="neptun-logo"></div>
+					<div class="text">
+						<a href="https://neptun.bme.hu/hallgatoi/login.aspx" class="neptun-hallg new-window">Hallgatóknak</a>
+						<a href="https://neptun.bme.hu/oktatoi/login.aspx" class="neptun-okt new-window">Oktatóknak</a>
+					</div>
+					<div class="clear"><!-- --></div>
+				</div>
+
+
+				<div class="sidebar-box" id="sidebar-neptun-operating-box">
+					<h2 class="sidebar-title">Neptun üzemidő</h2>
+
+					<a href="#" id="neptun_box-arrow"></a>
+
+					<div id="neptun_operating_box-content" class="neptun_box_content">
+						<div class="text">
+							<table>
+								<tr><td class="time">00:00 &ndash; 04:00</td><td>rendes üzem</td></tr>
+								<tr><td class="time">04:00 &ndash; 06:00</td><td>üzemszünet</td></tr>
+								<tr><td class="time">06:00 &ndash; 24:00</td><td>rendes üzem</td></tr>
+							</table>
+
+							<p class="comment">Az ettől való rendkívüli eltéréseket a hírek között jelentetjük meg.</p>
+						</div>
+					</div>
+				</div>
+				<div class="sidebar-box">
+					<h2 class="sidebar-title">Naptár</h2>
+					<div class="sidebar-content">
+						<div id="calendar_container"></div>
+					</div>
+				</div>
+
+
+				<div class="sidebar-box" id="sidebar-link-box">
+					<h2 class="sidebar-title">Linktár</h2>
+					<ul>
+						<li><a href="http://www.bme.hu" title="Budapesti Műszaki és Gazdaságtudományi Egyetem" class="new-window">BME</a></li>
+						<li><a href="http://doktori.bme.hu" title="Doktori Habilitációs Bizottság" class="new-window">Doktori Habilitációs Bizottság</a></li>
+						<li><a href="http://www.felvi.hu" title="FELVI" class="new-window">FELVI</a></li>
+						<li><a href="http://www.sc.bme.hu/" title="Hallgatói Szolgáltatási Igazgatóság" class="new-window">HSZI</a></li>
+						<li><a href="http://www.diakigazolvany.hu/" title="Diákigazolvány" class="new-window">Diákigazolvány portál</a></li>
+						<li><a href="http://kancellaria.bme.hu/" title="Kancellária" class="new-window">Kancellária</a></li>
+						<li><a href="http://www.oktatas.hu/" title="Oktatási Hivatal" class="new-window">Oktatási Hivatal</a></li>
+						<li><a href="http://ohv.bme.hu" title="OHV Portál" class="new-window">OHV</a></li>
+					</ul>
+				</div>
+
+
+			</div> 
+		</div> 
+		<div class="clear"><!-- --></div>
+
+	</div> 
+	<div id="site-footer">
+		<div class="content">
+			<p class="copyright"><a href="/impresszum">Impresszum</a> | Copyright &copy; 2024 Budapesti Műszaki és Gazdaságtudományi Egyetem</p>
+		</div>
+
+	</div>
+</div> 
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-28848960-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+</body>
+</html>
